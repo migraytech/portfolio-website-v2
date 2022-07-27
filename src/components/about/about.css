@@ -1,0 +1,13 @@
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+  }
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+
+
+  /* about section image css */
+.imageAboutPage {
+  width: 100%;
+}
