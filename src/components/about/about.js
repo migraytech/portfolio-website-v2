@@ -5,7 +5,6 @@ const About = ()  => {
 
 
     return (
-
         <div class="container-fluid">
                     <section id="about">
                             <div class="container mt-4 pt-4">
