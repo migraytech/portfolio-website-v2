@@ -6,12 +6,17 @@ import React from 'react';
 
 import './portfolio.css';
 import placeholder from '../../images/placeholder1.bmp';
+import placeholder2 from '../../images/placeholder2.bmp';
+import placeholder3 from '../../images/placeholder3.bmp';
+
+
 
 const Portfolio = ()  => {
 
     return (
-    <section id="portfolio">
-        <div class="container mt-3">
+    <section id="portfolio" >
+
+          <div class="container mt-3">
             <h1 class="text-center">Portfolio</h1>
             <div class="row">
 
@@ -20,10 +25,10 @@ const Portfolio = ()  => {
                     <div class="card portfolioContent">
                     <img class="card-img-top" src={placeholder} alt="test" />
                         <div class="card-body">
-                            <h4 class="card-title">Youtube</h4>
+                            <h4 class="card-title">Discord-bot</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                <a href="https://github.com/MignonGakuba/discord-bot" class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -31,12 +36,12 @@ const Portfolio = ()  => {
 
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                    <img class="card-img-top" src={placeholder} alt="test" />
+                    <img class="card-img-top" src={placeholder2} alt="test" />
                         <div class="card-body">
-                            <h4 class="card-title">Quiz App</h4>
+                            <h4 class="card-title">Reciswipe React Native App</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                <a href="https://github.com/MignonGakuba/reciswipe_OI" class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -44,10 +49,10 @@ const Portfolio = ()  => {
 
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                    <img class="card-img-top" src={placeholder} alt="test" />
+                    <img class="card-img-top" src={placeholder3} alt="test" />
 
                         <div class="card-body">
-                            <h4 class="card-title">Product Landing Page</h4>
+                            <h4 class="card-title"> Youtube_Project</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
@@ -62,7 +67,7 @@ const Portfolio = ()  => {
                     <img class="card-img-top" src={placeholder} alt="test" />
 
                         <div class="card-body">
-                            <h4 class="card-title">Messaging Service</h4>
+                            <h4 class="card-title">Python-tutorial </h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
