@@ -1,5 +1,8 @@
+/* eslint-disable no-undef */
 
 import './home.css';
+import React from 'react';
+
 
 window.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
@@ -8,11 +11,15 @@ window.addEventListener('DOMContentLoaded', () => {
       main.style.filter = 'blur(0px)'
     }, 1500)
 
-})
+});
+
+
 
 const Home = ()  => {
+
+  
     return (
-    <div >
+    <div >  
         <section class="bgimage animated " id="home">
             <div class="container-fluid">
                 <div class="row">
@@ -25,7 +32,7 @@ const Home = ()  => {
         </section>
     </div>
 
-    )
-}
+    );
+};
 
 export default Home;

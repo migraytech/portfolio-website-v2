@@ -7,19 +7,21 @@ import Contact from './components/contact/contact';
 import NavBar from './navbar/navbar';
 import Footer from './footer/footer';
 import Vanta from './components/Vanta';
-// import Vanta from './components/Vanta';
 
 function App() {
   return (
     <div class="App">
-      <Vanta/>
+    <div class="loader"></div>
+    <div class="shadow"></div>
+
+      {/* <Vanta/> */}
       <NavBar/>
       <Home/>
       <About/>
       <Services/>
       <Portfolio/>
       <Contact/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

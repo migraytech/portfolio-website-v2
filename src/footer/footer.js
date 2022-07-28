@@ -1,10 +1,10 @@
 
 import './footer.css';
 const Footer = () =>{
-
     return (
     <footer id="footer">
-        <div class="container-fluid">
+        <p>Designed & Built by Mignon Gakuba</p>
+        <div class="container">
             <div class="social-icons mt-4">
                 <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a>
