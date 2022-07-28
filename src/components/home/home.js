@@ -9,15 +9,13 @@ window.addEventListener('DOMContentLoaded', () => {
       const main = document.querySelector('section')
       main.style.opacity = 1
       main.style.filter = 'blur(0px)'
-    }, 1500)
+    }, 2000)
 
 });
 
 
 
 const Home = ()  => {
-
-  
     return (
     <div >  
         <section class="bgimage animated " id="home">

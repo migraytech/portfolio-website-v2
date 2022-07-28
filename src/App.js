@@ -8,11 +8,32 @@ import NavBar from './navbar/navbar';
 import Footer from './footer/footer';
 import Vanta from './components/Vanta';
 
+
+
+window.addEventListener('DOMContentLoaded', () => {
+  var loader = document.querySelector('.loader');
+	setTimeout(() => {
+    loader.style.opacity = 0
+    loader.style.filter = 'blur(1px)'	
+	}, 1950);
+
+  var shadow = document.querySelector('.shadow');
+
+  setTimeout(() => {
+    shadow.style.opacity = 0
+    shadow.style.filter = 'blur(1px)'	
+	}, 1950);
+});
+
 function App() {
   return (
     <div class="App">
-    <div class="loader"></div>
-    <div class="shadow"></div>
+
+    <div class="loader">
+    </div>
+    <div class="shadow">
+
+    </div>
 
       {/* <Vanta/> */}
       <NavBar/>
@@ -21,7 +42,7 @@ function App() {
       <Services/>
       <Portfolio/>
       <Contact/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
