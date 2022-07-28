@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 
 import React from 'react';
 
@@ -8,8 +9,10 @@ const Contact = ()  => {
 
     return (
     <section id="contact">
-        <div class="col-sm-4">
-        <img class="img-circle mb-25" width="72" src="assets/img/avatars/envato-avatar.jpg" alt="envato avatar"/>
+     <div class="container mt-3 pt-4 contactContent">
+      <h1 class="text-center">Contact Me</h1>
+      <div class="row">
+        <div class="col-lg-4 mt-4">
             <div>
                 <strong>Address:</strong><br/>
                 A795 Folsom Ave, Suite 600<br/>
@@ -19,27 +22,30 @@ const Contact = ()  => {
                 <strong>E-mail:</strong><br/>
                 <a href="#">your.name@example.com</a>
             </div>
-    </div>
-      <div class="col-sm-8">
+        </div>
+      <div class="col-lg-8">
         <form class="contact-form validate-form" id="contact-form">
-        <div class="row">
-            <div class="form-group col-sm-6">
-                <input name="name" id="name" type="text" class="form-control bordered" placeholder="Name"/>
+            <div class="row  mt-4">
+                <div class="form-group col-sm-6 container">
+                    <input name="name" id="name" type="text" class="form-control bordered" placeholder="Name"/>
+                </div>
+                <div class="form-group col-sm-6 container">
+                    <input name="email" id="email" type="text" class="form-control bordered" placeholder="E-mail address"/>
+                </div>
             </div>
-            <div class="form-group col-sm-6">
-                <input name="email" id="email" type="text" class="form-control bordered" placeholder="E-mail address"/>
+            <div class="form-group">
+                <textarea name="message" id="message" cols="30" rows="7" class="form-control bordered" placeholder="Message"></textarea>
             </div>
-        </div>
-        <div class="form-group">
-            <textarea name="message" id="message" cols="30" rows="7" class="form-control bordered" placeholder="Message"></textarea>
-        </div>
-        <div class="row">
+            <div class="row">
             <div class="col-md-4 col-sm-6">
-                <button class="btn btn-filled btn-primary btn-block">Send it <i class="i-after ti-arrow-right"></i></button>
+                    <button class="btn btn-filled btn-primary btn-block">Send it <i class="i-after ti-arrow-right"></i></button>
+                </div>
             </div>
-        </div>
         </form>
         </div>
+    </div>
+     </div>
+                   
     </section>
     );
 }
