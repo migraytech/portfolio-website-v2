@@ -16,11 +16,11 @@ const Portfolio = ()  => {
             <div class="row">
 
 
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
+             <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                    <img class="card-img-top" src={placeholder} alt="test" />
                         <div class="card-body">
-                        <img class="card-img-top" src={placeholder} alt="test" />
-                            <h4 class="card-title">YouTube Clone</h4>
+                            <h4 class="card-title">Youtube</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
