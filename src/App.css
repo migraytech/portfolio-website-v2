@@ -271,6 +271,7 @@ body {
 }
 .logo:hover {
   transform: scale(1.4);
+  overflow: hidden;
 }
 .logo img {
   width: 100%;
