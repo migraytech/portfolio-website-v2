@@ -14,13 +14,13 @@ import Footer from './components/footer/footer';
 //Create acc monpent that excute the animation on the addEventListener
 
 window.addEventListener('DOMContentLoaded', () => {
-  var loader = document.querySelector('.loader');
+  const loader = document.querySelector('.loader');
 	setTimeout(() => {
-    loader.style.opacity = 0
-    loader.style.filter = 'blur(1px)'	
+    loader.style.opacity = 0;
+    loader.style.filter = 'blur(1px)'
 	}, 1950);
 
-  var shadow = document.querySelector('.shadow');
+  const shadow = document.querySelector('.shadow');
 
   setTimeout(() => {
     shadow.style.opacity = 0

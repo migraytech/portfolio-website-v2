@@ -1,14 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 import React from 'react';
-
-
 import './contact.css';
 
 const Contact = ()  => {
 
     return (
-    <section id="contact">
+        <div class="container-fluid">
+   <section id="contact">
      <div class="container mt-3 pt-4 contactContent">
       <h1 class="text-center">Contact Me</h1>
       <div class="row">
@@ -44,9 +43,10 @@ const Contact = ()  => {
         </form>
         </div>
     </div>
-     </div>
-                   
+     </div>              
     </section>
+        </div>
+ 
     );
 }
 

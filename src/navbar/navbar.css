@@ -1,3 +1,21 @@
-.navbarScroll.navbarDark {
-    background-color: black;
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+  html,body{
+  font-family: 'Lato', sans-serif;
+  font-size: large;
+  font-weight: bold;
+  }
+
+  .navbar {
+    background: transparent;
+    top:0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+  }
+  
+  .navbar.active {
+    background-color: linear-gradient(90deg, rgb(66,2,194),rgb(0,78,194) 100%);
   }

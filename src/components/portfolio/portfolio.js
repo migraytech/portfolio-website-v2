@@ -14,7 +14,8 @@ import placeholder3 from '../../images/placeholder3.bmp';
 const Portfolio = ()  => {
 
     return (
-    <section id="portfolio" >
+        <div class="container-fluid">
+  <section id="portfolio" >
           <div class="container mt-3">
             <h1 class="text-center">Portfolio</h1>
             
@@ -73,7 +74,6 @@ const Portfolio = ()  => {
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
                     <img class="card-img-top" src={placeholder} alt="test" />
@@ -103,6 +103,8 @@ const Portfolio = ()  => {
             </div>
     </div>
     </section>
+        </div>
+  
     )
 
 }

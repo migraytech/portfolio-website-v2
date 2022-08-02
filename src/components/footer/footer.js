@@ -2,6 +2,7 @@
 import './footer.css';
 const Footer = () =>{
     return (
+        <div class = "container-fluid">
     <footer id="footer">
         <p>Designed & Built by Mignon Gakuba</p>
         <div class="container">
@@ -14,6 +15,8 @@ const Footer = () =>{
             </div>
         </div>
     </footer>
+        </div>
+
     );
 }
 
