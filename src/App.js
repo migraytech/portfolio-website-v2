@@ -6,7 +6,7 @@ import Portfolio from './components/portfolio/portfolio';
 import Contact from './components/contact/contact';
 import NavBar from './navbar/navbar';
 import Footer from './components/footer/footer';
-import Vanta from './components/Vanta';
+// import Vanta from './components/Vanta';
 
 
 
@@ -40,7 +40,7 @@ function App() {
     <div class="App">
     <div class="loader"></div>
     <div class="shadow"></div>
-      <Vanta/>
+      {/* <Vanta/> */}
       <NavBar/>
       <Home/>
       <About/>
