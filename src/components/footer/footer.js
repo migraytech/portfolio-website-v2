@@ -13,7 +13,7 @@ import {
 
 const Footer = () =>{
     return (
- <div class = "container-fluid">
+ <div>
   <MDBFooter className='bg-dark text-center text-white'>
     <div className='row'>
    <MDBContainer className='p-4 pb-0' class ="col-lg-10 mt-4">
@@ -36,6 +36,7 @@ const Footer = () =>{
         </form>
         </MDBContainer>
       <MDBContainer className='p-4 pb-0' class="col-lg-2 mt-4">
+      <span>Get connected with me on social networks:</span>
         <section className='mb-4'>
           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
             <MDBIcon fab icon='twitter' />

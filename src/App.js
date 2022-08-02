@@ -16,14 +16,12 @@ window.addEventListener('DOMContentLoaded', () => {
   const loader = document.querySelector('.loader');
 	setTimeout(() => {
     loader.style.display = 'none';
-
 	}, 1950);
 
   const shadow = document.querySelector('.shadow');
 
   setTimeout(() => {
     shadow.style.display = 'none';
-
 	}, 1950);
 
 
@@ -47,6 +45,7 @@ function App() {
       <Services/>
       <Portfolio/>
       <Contact/>
+      <br/>
       <Footer/>
     </div>
   );
