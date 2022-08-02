@@ -37,7 +37,7 @@ const Contact = ()  => {
             </div>
             <div class="row">
             <div class="col-lg-1 mt-2 ">
-                    <button class="btn btn-filled btn-primary btn-block">Confirm<i class="i-after ti-arrow-right"></i></button>
+                    <button class=" btn btn-dark btn btn-filled btn-primary btn-block">Confirm<i class="i-after ti-arrow-right"></i></button>
                 </div>
             </div>
         </form>

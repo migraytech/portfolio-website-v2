@@ -25,12 +25,12 @@ const Footer = () =>{
               </p>
             </MDBCol>
 
-            <MDBCol md='5' size='12' className='mb-4 mb-md-0'>
+            <MDBCol md='4' size='12' className='mb-4 mb-md-0'>
               <MDBInput type='text' id='form5Example2' placeholder='Email address' />
             </MDBCol>
 
             <div class="col-lg-1">
-                    <button class="btn btn-filled btn-primary btn-block">Subscribe<i class="i-after ti-arrow-right"></i></button>
+                    <button class="btn btn-dark btn btn-filled btn-primary btn-block">Subscribe<i class="i-after ti-arrow-right"></i></button>
                 </div>
           </MDBRow>
         </form>
@@ -52,6 +52,9 @@ const Footer = () =>{
             <MDBIcon fab icon='linkedin-in' />
           </MDBBtn>
 
+          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBIcon fab icon='youtube' />
+          </MDBBtn>
           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
             <MDBIcon fab icon='github' />
           </MDBBtn>

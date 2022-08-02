@@ -27,7 +27,7 @@ const Portfolio = ()  => {
                             <h4 class="card-title">Discord-bot</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="https://github.com/MignonGakuba/discord-bot" class="btn btn-success">Link</a>
+                                <a href="https://github.com/MignonGakuba/discord-bot" class="btn btn-dark btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ const Portfolio = ()  => {
                             <h4 class="card-title">Reciswipe React Native App</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="https://github.com/MignonGakuba/reciswipe_OI" class="btn btn-success">Link</a>
+                                <a href="https://github.com/MignonGakuba/reciswipe_OI" class=" btn btn-dark btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Portfolio = ()  => {
                             <h4 class="card-title"> Youtube_Project</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                <a href="#" class=" btn btn-dark btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ const Portfolio = ()  => {
                             <h4 class="card-title">Python-tutorial </h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                <a href="#" class="btn btn-dark btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ const Portfolio = ()  => {
                             <h4 class="card-title">CodeWars Katas</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                <a href="#" class="btn btn-dark btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ const Portfolio = ()  => {
                             <h4 class="card-title">Blog App</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                <a href="#" class="btn btn-dark btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>

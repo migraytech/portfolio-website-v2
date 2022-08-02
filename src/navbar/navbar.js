@@ -23,7 +23,7 @@ window.addEventListener('scroll',changeBackground);
 
 return (
 <div  class="container-fluid">
-    <nav  className={navbar ? 'navbar active navbar-expand-lg fixed-top navbarScrol' : 'navbar navbar-expand-lg fixed-top navbarScroll"'} >
+    <nav  className={navbar ? 'navbar navbar-dark bg-dark navbar-expand-lg fixed-top navbarScrol' : 'navbar navbar-expand-lg fixed-top navbarScroll"'} >
         <div class="container">
             <a class="navbar-brand" href="#">MG</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

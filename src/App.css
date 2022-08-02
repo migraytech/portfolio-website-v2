@@ -18,6 +18,7 @@ html {
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: rgba(0, 0, 0, 0.4);
  }
  
 
@@ -210,7 +211,6 @@ body {
 
 body {
   position: relative;
-  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important;
   overflow-y: hidden;
 
 }

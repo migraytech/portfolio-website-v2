@@ -37,7 +37,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 function App() {
   return (
-    <div class="App" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+    <div class="App">
     <div class="loader"></div>
     <div class="shadow"></div>
       <Vanta/>
