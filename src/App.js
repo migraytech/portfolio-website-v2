@@ -15,16 +15,25 @@ import Vanta from './components/Vanta';
 window.addEventListener('DOMContentLoaded', () => {
   const loader = document.querySelector('.loader');
 	setTimeout(() => {
-    loader.style.opacity = 0;
-    loader.style.filter = 'blur(1px)'
+    loader.style.display = 'none';
+
 	}, 1950);
 
   const shadow = document.querySelector('.shadow');
 
   setTimeout(() => {
-    shadow.style.opacity = 0
-    shadow.style.filter = 'blur(1px)'	
+    shadow.style.display = 'none';
+
 	}, 1950);
+
+
+  const navbar = document.querySelector('.navbar');
+  navbar.style.display = 'none';
+
+  setTimeout(() => {
+    navbar.style.display = 'inline';
+  }, 1950);
+  
 });
 
 function App() {

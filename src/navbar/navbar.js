@@ -3,12 +3,6 @@ import  './navbar.css'
 import React , { useState} from 'react';
 import {Link} from "react-scroll";
 
-window.addEventListener('DOMContentLoaded', () => {
-    const loader = document.getElementsByTagName('nav');
-      setTimeout(() => {
-      loader.style.display = 'none';
-      }, 1950);
-});
 
 
 const NavBar  = () =>{
