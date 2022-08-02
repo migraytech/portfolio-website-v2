@@ -33,12 +33,11 @@ window.addEventListener('DOMContentLoaded', () => {
   setTimeout(() => {
     navbar.style.display = 'inline';
   }, 1950);
-  
 });
 
 function App() {
   return (
-    <div class="App">
+    <div class="App" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
     <div class="loader"></div>
     <div class="shadow"></div>
       <Vanta/>

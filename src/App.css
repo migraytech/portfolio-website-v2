@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  background-color: #FDC800;
   text-align: center;
  }
  
@@ -211,7 +210,7 @@ body {
 
 body {
   position: relative;
-  background: #99d2e4;
+  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important;
   overflow-y: hidden;
 
 }
@@ -224,7 +223,6 @@ body {
   left: 50%;
   margin-top: -25px;
   margin-left: -25px;
-  background-color: #fff5a5;
   transform: translateX(0px) translateY(0px) rotate(0deg);
   -webkit-animation: mainAnimation 2.6s ease 0s infinite forwards;
           animation: mainAnimation 2.6s ease 0s infinite forwards;
@@ -241,7 +239,6 @@ body {
   height: 50px;
   top: 0;
   left: -50px;
-  background-color: #fff5a5;
   transform-origin: top right;
   transform: translateX(0px) translateY(0px) rotate(0deg);
   -webkit-animation: secundaryAnimation 2.6s ease 0s infinite forwards;
@@ -257,7 +254,6 @@ body {
   margin-top: 50px;
   margin-left: -75px;
   border-radius: 50%;
-  background-color: #95a5a6;
   transform: translateX(0px) translateY(0px) rotate(0deg);
   -webkit-animation: shadowAnimation 2.6s ease 0s infinite forwards, float 5s ease-in-out 0s infinite forwards;
           animation: shadowAnimation 2.6s ease 0s infinite forwards, float 5s ease-in-out 0s infinite forwards;
@@ -274,7 +270,6 @@ body {
   padding: 12px 5px;
   margin-left: -21px;
   box-sizing: border-box;
-  background-color: white;
   border-radius: 50%;
   transition: transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -300,4 +295,11 @@ body {
   font-size: 12px;
   letter-spacing: 2px;
   color: white;
+}
+
+a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius:100%;
+  border: 1px solid #fff;
+  box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }

@@ -1,21 +1,73 @@
 
 import './footer.css';
+
+import {
+    MDBFooter,
+    MDBCol,
+    MDBRow,
+    MDBInput,
+    MDBContainer,
+    MDBIcon,
+    MDBBtn
+  } from 'mdb-react-ui-kit';
+
 const Footer = () =>{
     return (
-        <div class = "container-fluid">
-    <footer id="footer">
-        <p>Designed & Built by Mignon Gakuba</p>
-        <div class="container">
-            <div class="social-icons mt-4">
-                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.twitch.tv/" target="_blank" rel="noreferrer"><i class="fab fa-twitch"></i></a>
-            </div>
-        </div>
-    </footer>
-        </div>
+ <div class = "container-fluid">
+  <MDBFooter className='bg-dark text-center text-white'>
+    <div className='row'>
+   <MDBContainer className='p-4 pb-0' class ="col-lg-10 mt-4">
+        <form action=''>
+          <MDBRow className='d-flex justify-content-center'>
+            <MDBCol size='auto' className='mb-8 mb-md-0'>
+              <p className='pt-2'>
+                <strong>Sign up for my Blog</strong>
+              </p>
+            </MDBCol>
+
+            <MDBCol md='5' size='12' className='mb-4 mb-md-0'>
+              <MDBInput type='text' id='form5Example2' placeholder='Email address' />
+            </MDBCol>
+
+            <div class="col-lg-1">
+                    <button class="btn btn-filled btn-primary btn-block">Subscribe<i class="i-after ti-arrow-right"></i></button>
+                </div>
+          </MDBRow>
+        </form>
+        </MDBContainer>
+      <MDBContainer className='p-4 pb-0' class="col-lg-2 mt-4">
+        <section className='mb-4'>
+          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBIcon fab icon='twitter' />
+          </MDBBtn>
+
+          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBIcon fab icon='google' />
+          </MDBBtn>
+          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBIcon fab icon='instagram' />
+          </MDBBtn>
+
+          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBIcon fab icon='linkedin-in' />
+          </MDBBtn>
+
+          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBIcon fab icon='github' />
+          </MDBBtn>
+        </section>
+      </MDBContainer>
+      </div>
+
+      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+        © 2022 Copyright:
+        <a className='text-white' href='https://mdbootstrap.com/'>
+          Mignon Gakuba
+        </a>
+      </div>
+    </MDBFooter>
+  </div>
+  
 
     );
 }
