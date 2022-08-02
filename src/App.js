@@ -5,10 +5,13 @@ import Services from './components/servicess/services';
 import Portfolio from './components/portfolio/portfolio';
 import Contact from './components/contact/contact';
 import NavBar from './navbar/navbar';
-import Footer from './footer/footer';
+import Footer from './components/footer/footer';
 // import Vanta from './components/Vanta';
 
 
+
+///TODO
+//Create acc monpent that excute the animation on the addEventListener
 
 window.addEventListener('DOMContentLoaded', () => {
   var loader = document.querySelector('.loader');
