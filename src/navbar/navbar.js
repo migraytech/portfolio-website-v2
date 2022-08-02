@@ -1,28 +1,31 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import  './navbar.css'
-import React , { useState, useEffect } from 'react';
+import React , { useState} from 'react';
 import {Link} from "react-scroll";
+
+window.addEventListener('DOMContentLoaded', () => {
+    const loader = document.getElementsByTagName('nav');
+      setTimeout(() => {
+      loader.style.display = 'none';
+      }, 1950);
+});
+
+
 const NavBar  = () =>{
 
 const [navbar, setNavBar] = useState(false);
 
 const changeBackground = () => {
     console.log(window.scrollY);
-
     if(window.scrollY >= 80){
        setNavBar(true);
     }
     else {
         setNavBar(false);
-
     }
-
 }
 
 window.addEventListener('scroll',changeBackground);
-
-
-
 
 return (
 <div  class="container-fluid">

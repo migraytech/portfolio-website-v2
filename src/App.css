@@ -212,7 +212,6 @@ body {
 body {
   position: relative;
   background: #99d2e4;
-  /* background: linear-gradient(135deg, #99d2e4 0%, #ffd4da 100%); */
   overflow-y: hidden;
 
 }
@@ -230,13 +229,11 @@ body {
   -webkit-animation: mainAnimation 2.6s ease 0s infinite forwards;
           animation: mainAnimation 2.6s ease 0s infinite forwards;
   z-index: 2;
-  overflow-y: hidden;
 
 }
 
 
 .loader:after {
-  overflow-y: hidden;
   content: "";
   display: inline-block;
   position: absolute;

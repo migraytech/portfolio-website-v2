@@ -6,12 +6,11 @@ import Portfolio from './components/portfolio/portfolio';
 import Contact from './components/contact/contact';
 import NavBar from './navbar/navbar';
 import Footer from './components/footer/footer';
-// import Vanta from './components/Vanta';
+import Vanta from './components/Vanta';
 
 
 
 ///TODO
-//Create acc monpent that excute the animation on the addEventListener
 
 window.addEventListener('DOMContentLoaded', () => {
   const loader = document.querySelector('.loader');
@@ -33,7 +32,7 @@ function App() {
     <div class="App">
     <div class="loader"></div>
     <div class="shadow"></div>
-      {/* <Vanta/> */}
+      <Vanta/>
       <NavBar/>
       <Home/>
       <About/>
