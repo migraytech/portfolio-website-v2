@@ -15,7 +15,11 @@
     position: sticky;
     z-index: 999;
   }
-  
+
   .navbar.active {
-    background-color: linear-gradient(90deg, rgb(66,2,194),rgb(0,78,194) 100%);
+    background-color: whitesmoke;
+  }
+
+  .navbar-collapse{
+    font-weight: bold;
   }
