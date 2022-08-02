@@ -2,8 +2,10 @@
 .bgimage {
   height:100vh;
   background: url('../../images/rick_and_morty_car_rainbow-wallpaper-2560x1440.jpg');
-  background-size:cover;
-  position:relative;
+  background-size: cover ;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position:center; 
 }
 /* text css above hero image*/
 .hero_title {
