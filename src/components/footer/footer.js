@@ -21,7 +21,7 @@ const Footer = () =>{
           <MDBRow className='d-flex justify-content-center'>
             <MDBCol size='auto' className='mb-8 mb-md-0'>
               <p className='pt-2'>
-                <strong>Sign up for my Blog</strong>
+                <strong>Sign up for my Blogs</strong>
               </p>
             </MDBCol>
 
