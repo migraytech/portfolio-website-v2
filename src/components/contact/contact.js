@@ -19,7 +19,7 @@ const Contact = ()  => {
                 <strong>Phone:</strong><br/>
                 +48 221 909 99<br/><br/>
                 <strong>E-mail:</strong><br/>
-                <a href="#">your.name@example.com</a>
+                <a href="#">mignongakuba@gmail.com</a>
             </div>
         </div>
       <div class="col-lg-8 mt-6">
