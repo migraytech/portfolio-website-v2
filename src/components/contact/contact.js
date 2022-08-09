@@ -13,11 +13,8 @@ const Contact = ()  => {
       <div class="row">
         <div class="col-lg-4 mt-4">
             <div>
-                <strong>Address:</strong><br/>
-                A795 Folsom Ave, Suite 600<br/>
-                San Francisco, CA 94107<br/><br/>
                 <strong>Phone:</strong><br/>
-                +48 221 909 99<br/><br/>
+                 +(WORK PHONE_NUMBER PHARMAPARNTERS)<br/><br/>
                 <strong>E-mail:</strong><br/>
                 <a href="#">mignongakuba@gmail.com</a>
             </div>
