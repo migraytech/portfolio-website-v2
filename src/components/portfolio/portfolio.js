@@ -80,7 +80,7 @@ const Portfolio = ()  => {
 
                         <div class="card-body">
                             <h4 class="card-title">CodeWars Katas</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="card-text">Codewars-kyus-solutions This is a repository of mine codewars kyus solutions. I will seperate each level from 7yu to 1 kyu. My goal is to train my Software IQ to a next level and eventually become a better programmer. I hope to finished at least more than 50 and to reach the level 1 kyu.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-dark btn btn-success">Link</a>
                             </div>
