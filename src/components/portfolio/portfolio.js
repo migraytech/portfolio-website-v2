@@ -67,7 +67,7 @@ const Portfolio = ()  => {
 
                         <div class="card-body">
                             <h4 class="card-title">Python-tutorial </h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="card-text">Python course.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-dark btn btn-success">Link</a>
                             </div>
