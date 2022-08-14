@@ -25,7 +25,7 @@ const Portfolio = ()  => {
                     <img class="card-img-top" src={placeholder} alt="test" />
                         <div class="card-body">
                             <h4 class="card-title">Discord-bot</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="card-text">Created discord mod bot for that moderates a discussion forum by removing unacceptable postings, etc..</p>
                             <div class="text-center">
                                 <a href="https://github.com/MignonGakuba/discord-bot" class="btn btn-dark btn btn-success">Link</a>
                             </div>
@@ -38,7 +38,7 @@ const Portfolio = ()  => {
                     <img class="card-img-top" src={placeholder2} alt="test" />
                         <div class="card-body">
                             <h4 class="card-title">Reciswipe React Native App</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="card-text">For my individual assignment I would like to work on my own concept. I came up with a concept together with a friend that I would like to work on. Recswipe you will see that it looks and functions differently than Tinder. It can generate recipes. In addition, you can keep track of what you have eaten last. Reciswipe's mission is a varied and varied offer. Also encourage people to eat healthy. It is an application that allows consumers to make choices from list dishes and to swipe through them, just like in Tinder. Application must be able to bridge the gap These dishes must register, you will see a list of dishes in front of them. It should also be an online platform where people can also lose their dishes and share them with other users. With this application I hope to practice my frontend skills and practice backend. Where I mainly want to work is my visual design and web design. I also like practicing with JavaScript animation</p>
                             <div class="text-center">
                                 <a href="https://github.com/MignonGakuba/reciswipe_OI" class=" btn btn-dark btn btn-success">Link</a>
                             </div>
