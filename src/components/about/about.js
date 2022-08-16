@@ -16,22 +16,14 @@ const About = ()  => {
                                        <img src = {about} class= "imageAboutPage" alt=""/>
                                     </div>
                                     <div class="col-lg-8">
-                                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
-                                        </p>
+                                        <p> Junior Java Developer by Huisartsenzorg Research & Development at PharmaPartners.</p>
+                                        <p> Working to become a Fullstack developer, but specializes in back-end development Java , have experiences with Front-end development (HTML, CSS, JavaScript/TypeScript) and front-end frameworks (Angular & React)</p>
                                         <div class="row mt-3">
-                                            <div class="col-md-6">
+                                            <div class="col-md-12">
                                                 <ul>
                                                     <li>Name: Mignon Gakuba</li>
                                                     <li>Age: 25</li>
-                                                    <li>Occupation: Web Developer</li>
-
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <ul>
-                                                    <li>Name: David Parker</li>
-                                                    <li>Age: 28</li>
-                                                    <li>Occupation: Web Developer</li>
+                                                    <li>Occupation: Junior Java Developer</li>
 
                                                 </ul>
                                             </div>

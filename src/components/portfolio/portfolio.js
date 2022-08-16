@@ -14,12 +14,13 @@ import placeholder3 from '../../images/placeholder3.bmp';
 const Portfolio = ()  => {
 
     return (
-        <div class="container-fluid">
-  <section id="portfolio" >
+<div class="container-fluid">
+    <section id="portfolio" >
           <div class="container mt-3">
             <h1 class="text-center">Portfolio</h1>
             
             <div class="row">
+                
              <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
                     <img class="card-img-top" src={placeholder} alt="test" />
@@ -38,7 +39,7 @@ const Portfolio = ()  => {
                     <img class="card-img-top" src={placeholder2} alt="test" />
                         <div class="card-body">
                             <h4 class="card-title">Reciswipe React Native App</h4>
-                            <p class="card-text">For my individual assignment I would like to work on my own concept. I came up with a concept together with a friend that I would like to work on. Recswipe you will see that it looks and functions differently than Tinder. It can generate recipes. In addition, you can keep track of what you have eaten last. Reciswipe's mission is a varied and varied offer. Also encourage people to eat healthy. It is an application that allows consumers to make choices from list dishes and to swipe through them, just like in Tinder. Application must be able to bridge the gap These dishes must register, you will see a list of dishes in front of them. It should also be an online platform where people can also lose their dishes and share them with other users. With this application I hope to practice my frontend skills and practice backend. Where I mainly want to work is my visual design and web design. I also like practicing with JavaScript animation</p>
+                            <p class="card-text">For my individual assignment I would like to work on my own concept. I came up with a concept together with a friend that I would like to work on. Recswipe you will see that it looks and functions differently than Tinder. It can generate recipes. In addition, you can keep track of what you have eaten last.</p>
                             <div class="text-center">
                                 <a href="https://github.com/MignonGakuba/reciswipe_OI" class=" btn btn-dark btn btn-success">Link</a>
                             </div>
@@ -52,15 +53,17 @@ const Portfolio = ()  => {
 
                         <div class="card-body">
                             <h4 class="card-title"> Youtube_Project</h4>
-                            <p class="card-text">Created a  youtube project with Angular and SpringBoot.</p>
+                            <p class="card-text">Created a youtube project with Angular and SpringBoot.</p>
                             <div class="text-center">
                                 <a href="#" class=" btn btn-dark btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
             <div class="row">
+
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
                     <img class="card-img-top" src={placeholder} alt="test" />
@@ -74,9 +77,10 @@ const Portfolio = ()  => {
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                    <img class="card-img-top" src={placeholder} alt="test" />
+                    <img class="card-img-top" src={placeholder2} alt="test" />
 
                         <div class="card-body">
                             <h4 class="card-title">CodeWars Katas</h4>
@@ -90,7 +94,7 @@ const Portfolio = ()  => {
 
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                    <img class="card-img-top" src={placeholder} alt="test" />
+                    <img class="card-img-top" src={placeholder3} alt="test" />
                         <div class="card-body">
                             <h4 class="card-title">Blog App</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -100,11 +104,11 @@ const Portfolio = ()  => {
                         </div>
                     </div>
                 </div>
+
             </div>
-    </div>
+         </div>
     </section>
-        </div>
-  
+</div>
     )
 
 }
