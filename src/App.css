@@ -22,7 +22,7 @@ html {
   background-image: url('./images/background-image.jpg');
   background-position: absolute;
   background-repeat:unset;
-  background-size: contain;
+  background-size: auto;
  }
  
 
