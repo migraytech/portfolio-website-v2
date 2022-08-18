@@ -10,10 +10,10 @@ const About = ()  => {
         <div class="container-fluid">
                     <section id="about">
                             <div class="container mt-4 pt-4">
-                                <h1 class="text-center">About Me</h1>
+                                <h1 class="text-center"> <strong>About Me</strong></h1>
                                 <div class="row mt-4">
                                     <div class="col-lg-4">
-                                       <img src = {about} class= "imageAboutPage" alt=""/>
+                                       <img src = {about} class= "imageAboutPage" alt="profile_image"/>
                                     </div>
                                     <div class="col-lg-8">
                                         <p> Junior Java Developer by Huisartsenzorg Research & Development at PharmaPartners.</p>

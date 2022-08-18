@@ -6,7 +6,7 @@ const Services = ()  => {
  <div class="container-fluid">
     <section id="services">
         <div class="container">
-            <h1 class="text-center">Services</h1>
+            <h1 class="text-center"> <strong>Services</strong></h1>
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">

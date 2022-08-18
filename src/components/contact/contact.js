@@ -9,7 +9,7 @@ const Contact = ()  => {
         <div class="container-fluid">
    <section id="contact">
      <div class="container mt-3 pt-4 contactContent">
-      <h1 class="text-center">Contact Me</h1>
+      <h1 class="text-center"> <strong>Contact Me</strong></h1>
       <div class="row">
         <div class="col-lg-4 mt-4">
             <div>

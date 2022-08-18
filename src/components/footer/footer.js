@@ -22,7 +22,6 @@ const Footer = () =>{
             <MDBCol size='auto' className='mb-8 mb-md-0'>
               <p className='pt-2'>
                 <strong>Sign up for my Blogs for new projects</strong>
-                <p>.</p>
               </p>
             </MDBCol>
 

@@ -17,10 +17,8 @@ const Portfolio = ()  => {
 <div class="container-fluid">
     <section id="portfolio" >
           <div class="container mt-3">
-            <h1 class="text-center">Portfolio</h1>
-            
+            <h1 class="text-center"><strong>Portfolio</strong></h1>
             <div class="row">
-                
              <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
                     <img class="card-img-top" src={placeholder} alt="test" />
@@ -55,7 +53,7 @@ const Portfolio = ()  => {
                             <h4 class="card-title"> Youtube_Project</h4>
                             <p class="card-text">Created a youtube project with Angular and SpringBoot.</p>
                             <div class="text-center">
-                                <a href="#" class=" btn btn-dark btn btn-success">Link</a>
+                                <a href="https://github.com/MignonGakuba/Youtube_Project" class=" btn btn-dark btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -72,7 +70,7 @@ const Portfolio = ()  => {
                             <h4 class="card-title">Python-tutorial </h4>
                             <p class="card-text">Python course.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-dark btn btn-success">Link</a>
+                                <a href="https://github.com/MignonGakuba/python-tutorial" class="btn btn-dark btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
@@ -99,7 +97,7 @@ const Portfolio = ()  => {
                             <h4 class="card-title">Blog App</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-dark btn btn-success">Link</a>
+                                <a href="https://github.com/MignonGakuba/Codewars-kyus-solutions" class="btn btn-dark btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
