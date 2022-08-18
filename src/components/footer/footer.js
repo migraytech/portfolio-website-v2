@@ -22,6 +22,7 @@ const Footer = () =>{
             <MDBCol size='auto' className='mb-8 mb-md-0'>
               <p className='pt-2'>
                 <strong>Sign up for my Blogs for new projects</strong>
+                <p>.</p>
               </p>
             </MDBCol>
 
@@ -42,21 +43,21 @@ const Footer = () =>{
             <MDBIcon fab icon='twitter' />
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1' href='#' role='button'>
             <MDBIcon fab icon='google' />
           </MDBBtn>
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1' href='https://www.instagram.com/mignon_g/' role='button'>
             <MDBIcon fab icon='instagram' />
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1' href='https://www.linkedin.com/in/mignon-gakuba-700247180/' role='button'>
             <MDBIcon fab icon='linkedin-in' />
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1' href='https://www.youtube.com/channel/UCgC5yEhIxRPiOxiNa20el2A' role='button'>
             <MDBIcon fab icon='youtube' />
           </MDBBtn>
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1' href='https://github.com/MignonGakuba' role='button'>
             <MDBIcon fab icon='github' />
           </MDBBtn>
         </section>
@@ -64,7 +65,7 @@ const Footer = () =>{
       </div>
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2022 Copyright:
+        ©2022 Copyright:
         <a className='text-white' href='https://mdbootstrap.com/'>
           Mignon Gakuba
         </a>
