@@ -1,7 +1,14 @@
 import '../servicess/services.css';
 
 const  website_development_text = <p> test</p>
+const  website_development_text2 = <p> test</p>
+
 const website_design_text = <p>test</p>
+
+
+const seo_text = <p>test</p>
+const  qa_text = <p> test</p>
+const devops_text = <p>test</p>
 
 const Services = ()  => {
     return (
@@ -25,8 +32,7 @@ const Services = ()  => {
                         <div class="card-body">
                             <i class='fas servicesIcon fa-layer-group'></i>
                             <h4 class="card-title mt-3">Website Design</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            <p class="card-text mt-3">{website_design_text}
                             </p>
                         </div>
                     </div>  
@@ -37,8 +43,7 @@ const Services = ()  => {
                         <div class="card-body">
                             <i class='far servicesIcon fa-check-circle'></i>
                             <h4 class="card-title mt-3">Website Deployment</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            <p class="card-text mt-3"> {website_development_text2}
                             </p>
                         </div>
                     </div>  
@@ -51,8 +56,7 @@ const Services = ()  => {
                         <div class="card-body">
                             <i class='fas servicesIcon fa-search'></i>
                             <h4 class="card-title mt-3">SEO</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            <p class="card-text mt-3"> {seo_text}
                             </p>
                         </div>
                     </div>  
@@ -63,8 +67,7 @@ const Services = ()  => {
                         <div class="card-body">
                             <i class='fas servicesIcon fa-shield-alt'></i>
                             <h4 class="card-title mt-3">DevOps</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            <p class="card-text mt-3">{devops_text}
                             </p>
                         </div>
                     </div>  
@@ -75,8 +78,7 @@ const Services = ()  => {
                         <div class="card-body">
                             <i class='fas servicesIcon fa-wrench'></i>
                             <h4 class="card-title mt-3">QA</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            <p class="card-text mt-3"> {qa_text}
                             </p>
                         </div>
                     </div>  
