@@ -1,6 +1,7 @@
 import '../servicess/services.css';
 
-const  text = <p>"test"</p>
+const  website_development_text = <p> test</p>
+const website_design_text = <p>test</p>
 
 const Services = ()  => {
     return (
@@ -14,7 +15,7 @@ const Services = ()  => {
                         <div class="card-body">
                             <i class="fas servicesIcon fa-clock"></i>
                             <h4 class="card-title mt-3">Website Development</h4>
-                            <p class="card-text mt-3">{text}
+                            <p class="card-text mt-3">{website_development_text}
                             </p>
                         </div>
                     </div>  
