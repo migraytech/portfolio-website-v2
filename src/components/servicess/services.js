@@ -1,5 +1,6 @@
 import '../servicess/services.css';
 
+const  text = <p>"test"</p>
 
 const Services = ()  => {
     return (
@@ -13,8 +14,7 @@ const Services = ()  => {
                         <div class="card-body">
                             <i class="fas servicesIcon fa-clock"></i>
                             <h4 class="card-title mt-3">Website Development</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            <p class="card-text mt-3">{text}
                             </p>
                         </div>
                     </div>  
